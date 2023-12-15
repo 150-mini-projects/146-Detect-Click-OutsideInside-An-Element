@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: grid;
+  background-color: #242424;
+  place-items: center;
+}
+
+#our-elem {
+  background-color: #ffffff;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 1.5em;
+}
+
+#our-elem button {
+  font-size: 0.8em;
+  padding: 0.6em;
+  background-color: #4c4949;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#message {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#message span {
+  color: #86868b;
+  font-style: italic;
+}
